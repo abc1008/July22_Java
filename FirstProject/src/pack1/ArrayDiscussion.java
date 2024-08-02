@@ -1,5 +1,8 @@
 package pack1;
 
+import access_modifiers.ClassA;
+import access_modifiers.ClassA2;
+
 public class ArrayDiscussion {
 	
 	public static void main(String[] args) {
@@ -77,6 +80,14 @@ public class ArrayDiscussion {
 		String [] strArray = {"gbc", "abc", "pqr"};
 		
 		
+		
+//		ClassA2 aa = new ClassA2();
+		
+//		ClassA a = new ClassA();
+		
+		
+		
+
 		
 		
 	}

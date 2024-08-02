@@ -13,7 +13,7 @@ public class VariableDiscussion {
 	
 	
 	
-	public static void m1()
+	static void m1()
 	{
 		
 		System.out.println(a);    // static variable - by variablename;
@@ -25,7 +25,7 @@ public class VariableDiscussion {
 	
 	
 	
-	public void m2()
+	void m2()
 	{
 		
 		System.out.println(a);     // static variable - by variablename;
