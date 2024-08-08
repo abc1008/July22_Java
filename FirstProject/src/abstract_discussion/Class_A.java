@@ -3,7 +3,9 @@ package abstract_discussion;
 public abstract class Class_A {
 	
 	
-	int a = 100;
+	int a = 100;   // non static
+	
+	
 	static int b= 200;
 	
 	public Class_A()
