@@ -7,7 +7,7 @@ public abstract class Class_1 implements Interface_1{
 	
 	
 	
-	int a = 100;
+
 
 	public void m1()
 	{
