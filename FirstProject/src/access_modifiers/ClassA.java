@@ -19,6 +19,12 @@ public class ClassA {
 	public static void main(String[] args) {
 		
 		ClassA aa = new ClassA();
+		
+		int x = 10;
+		
+		
+		
+		
 		aa.m1();
 		
 		System.out.println(var1);

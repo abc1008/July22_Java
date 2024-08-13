@@ -8,11 +8,11 @@ public class Class_22 {
 	
 	
 	
-	public static void main(String[] args) throws InterruptedException, FileNotFoundException {
+	public static void main(String[] args) throws FileNotFoundException, InterruptedException{
 		
 		System.out.println("Before FileInputStream line");
 		
-		FileInputStream file = new FileInputStream("D:\\Trainings\\TESTOMETER\\Seleniun_JAVA_22July24_WEEKEND\\Excel File.xlsx");
+		FileInputStream file = new FileInputStream("D:\\Trainings\\TESTOMETER\\Seleniun_JAVA_22July24_WEEKEND\\Excel Fi.xlsx");
 		
 		
 		Thread.sleep(5000);  // stop program execution for given time
