@@ -25,6 +25,8 @@ public class ArrayListDiscussion {
 		System.out.println(list1);
 		
 		
+//		**** get ******
+		
 	    Integer num1 = list1.get(2);
 		System.out.println(num1);
 		

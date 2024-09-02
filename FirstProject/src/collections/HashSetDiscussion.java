@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class HashSetDiscussion {
 	
@@ -8,13 +9,15 @@ public class HashSetDiscussion {
 	public static void main(String[] args) {
 		
 		
-		HashSet<Integer> set1 = new HashSet<>();
+		Set<Integer> set1 = new HashSet<>();
 		set1.add(20);
 		set1.add(25);
 		set1.add(30);
 		set1.add(35);
 		set1.add(20);
 		set1.add(40);
+		
+		
 		
 		
 		System.out.println(set1);
