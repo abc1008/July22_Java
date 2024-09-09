@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-09T08:55:54 IST" name="Default suite" finished-at="2024-09-09T08:56:03 IST" duration-ms="9521">
+    <groups>
+    </groups>
+    <test started-at="2024-09-09T08:55:54 IST" name="Default test" finished-at="2024-09-09T08:56:03 IST" duration-ms="9521">
+      <class name="testSuites.AddressBookTestSuite">
+        <test-method is-config="true" signature="Login()[pri:0, instance:testSuites.AddressBookTestSuite@3e84448c]" started-at="2024-09-09T08:55:54 IST" name="Login" finished-at="2024-09-09T08:56:00 IST" duration-ms="6297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="TC_123_ChangeAddressTest()[pri:0, instance:testSuites.AddressBookTestSuite@3e84448c]" started-at="2024-09-09T08:56:00 IST" name="TC_123_ChangeAddressTest" finished-at="2024-09-09T08:56:02 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_123_ChangeAddressTest -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:testSuites.AddressBookTestSuite@3e84448c]" started-at="2024-09-09T08:56:02 IST" name="Logout" finished-at="2024-09-09T08:56:03 IST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- testSuites.AddressBookTestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
