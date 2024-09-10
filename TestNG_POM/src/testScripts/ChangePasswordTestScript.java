@@ -4,12 +4,26 @@ import basePack.BaseClass;
 import pageClasses.ChangePasswordPage;
 
 public class ChangePasswordTestScript extends BaseClass {
-	
-	
-	public void performChangePassword()
+
+	public boolean performChangePassword() 
 	{
+		boolean testResult = false;
+
 		ChangePasswordPage changePasswordPage = new ChangePasswordPage(driver);
-		changePasswordPage.resetPassword();
+
+		boolean isPasswordChanged = changePasswordPage.resetPassword();
+
+		if (isPasswordChanged == true) 
+		{
+			System.out.println("Password changed successfully.");
+			testResult = true;
+		} 
+		else 
+		{
+			System.out.println("Failed to change password .");
+		}
+		
+		return testResult;
 	}
 
 }

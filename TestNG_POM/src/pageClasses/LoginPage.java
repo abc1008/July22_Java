@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import utility.ConfigReader;
+import utility.ConfigHelper;
 
 
 public class LoginPage {
@@ -56,8 +56,8 @@ public class LoginPage {
 		
 		buttonMyAccount.click();
 		buttonLoginFromDropdown.click();
-		textBoxEmailAddr.sendKeys(ConfigReader.getData("UserId"));
-		textBoxPassword.sendKeys(ConfigReader.getData("Password"));
+		textBoxEmailAddr.sendKeys(ConfigHelper.getData("UserId"));
+		textBoxPassword.sendKeys(ConfigHelper.getData("Password"));
 		buttonLogin.click();
 		
 		System.out.println("Login Successful");

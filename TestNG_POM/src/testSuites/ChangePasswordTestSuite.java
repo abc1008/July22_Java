@@ -1,5 +1,6 @@
 package testSuites;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import basePack.BaseClass;
@@ -10,11 +11,8 @@ public class ChangePasswordTestSuite extends BaseClass{
 	@Test
 	public void TC_123_ChangePasswordTest()
 	{
-		ChangePasswordTestScript changePasswordTestScript = new ChangePasswordTestScript();
-		changePasswordTestScript.performChangePassword();
+		Assert.assertTrue(new ChangePasswordTestScript().performChangePassword());
 	}
-	
-	
-	
+
 
 }
