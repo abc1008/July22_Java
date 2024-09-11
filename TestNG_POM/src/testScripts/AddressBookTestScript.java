@@ -1,15 +1,17 @@
 package testScripts;
 
 import basePack.BaseClass;
+import ecommAppPack.EcommAppObjects;
 import pageClasses.AddressBookPage;
 
 public class AddressBookTestScript extends BaseClass {
 	
 	public void performChangeAddress()
 	{
-		AddressBookPage addressBookPage = new AddressBookPage(driver);
-		addressBookPage.changeAddress();
+		EcommAppObjects.addressBookPage().changeAddress();
 	}
+	
+	
 	
 	
 }

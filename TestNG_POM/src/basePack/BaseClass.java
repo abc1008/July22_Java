@@ -16,7 +16,6 @@ import utility.ConfigHelper;
 public class BaseClass {
 	
 	public static WebDriver driver;
-
 	
 	@BeforeMethod
 	public void Login() throws IOException

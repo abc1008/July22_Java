@@ -1,6 +1,7 @@
 package testScripts;
 
 import basePack.BaseClass;
+import ecommAppPack.EcommAppObjects;
 import pageClasses.ChangePasswordPage;
 
 public class ChangePasswordTestScript extends BaseClass {
@@ -8,11 +9,11 @@ public class ChangePasswordTestScript extends BaseClass {
 	public boolean performChangePassword() 
 	{
 		boolean testResult = false;
-
-		ChangePasswordPage changePasswordPage = new ChangePasswordPage(driver);
-
-		boolean isPasswordChanged = changePasswordPage.resetPassword();
-
+//		ChangePasswordPage changePasswordPage = new ChangePasswordPage(driver);
+//		boolean isPasswordChanged = changePasswordPage.resetPassword();
+		
+		boolean isPasswordChanged = EcommAppObjects.changePasswordPage().resetPassword();
+		
 		if (isPasswordChanged == true) 
 		{
 			System.out.println("Password changed successfully.");
