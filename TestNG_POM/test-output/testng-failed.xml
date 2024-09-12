@@ -8,6 +8,7 @@
           <include name="TC_123_ChangePasswordTest"/>
           <include name="Login"/>
           <include name="Logout"/>
+          <include name="executionInitialization"/>
         </methods>
       </class> <!-- testSuites.ChangePasswordTestSuite -->
     </classes>

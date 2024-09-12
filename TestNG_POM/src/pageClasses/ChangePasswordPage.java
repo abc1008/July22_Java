@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utility.ExtentReportsHelper;
+
 public class ChangePasswordPage {
 
 	// private variables : xpath and web-elements
@@ -38,7 +40,7 @@ public class ChangePasswordPage {
 	}
 
 	// public method
-	public boolean resetPassword() {
+	public boolean resetPassword() throws IOException {
 
 		boolean flag = true;
 
@@ -50,13 +52,13 @@ public class ChangePasswordPage {
 		String textonUI = successMsg.getText();
 		System.out.println("textonUI : "+ textonUI);
 
-		if (textonUI.contains("Your password has been successfully updated")) 
+		if (textonUI.contains("Your passworduuu has been successfully updated")) 
 		{
-			System.out.println("Password Reset Successful.");
+			ExtentReportsHelper.logPass("Password Reset Successful.");
 		} 
 		else 
 		{
-			System.out.println("Password Reset Failed.");
+			ExtentReportsHelper.logFail("Password Reset Failed.");
 			flag = false;
 		}
 		
