@@ -1,0 +1,5 @@
+utility\JSMethods.class
+pageClasses\LoginPage.class
+utility\ExtentReportsHelper.class
+pageClasses\ChangePasswordPage.class
+utility\ConfigHelper.class
