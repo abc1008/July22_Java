@@ -1,8 +1,0 @@
-StepDefinition\POMchangePassSteps.class
-StepDefinition\POMLoginSteps.class
-basePack\POMBaseClass.class
-ecommAppPack\EcommAppObjects.class
-StepDefinition\LoginSteps.class
-basePack\BaseClass.class
-hooks\Hooks.class
-testSuites\TestRunner.class

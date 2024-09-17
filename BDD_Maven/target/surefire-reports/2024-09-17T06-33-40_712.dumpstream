@@ -1,5 +1,0 @@
-# Created at 2024-09-17T06:33:40.967
-Boot Manifest-JAR contains absolute paths in classpath 'D:\Trainings\TESTOMETER\Seleniun_JAVA_22July24_WEEKEND\22JULY24_WEEKDAY_WORKSPACE2\BDD_Maven\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
