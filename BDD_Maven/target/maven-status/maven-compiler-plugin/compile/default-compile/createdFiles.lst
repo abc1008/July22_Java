@@ -1,0 +1,5 @@
+utility\JSMethods.class
+utility\ExtentReportsHelper.class
+pageClasses\POMLoginPage.class
+pageClasses\POMChangePassPage.class
+utility\ConfigHelper.class

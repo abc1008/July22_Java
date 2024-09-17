@@ -63,6 +63,7 @@ public class LoginPage {
 		System.out.println();
 		
 		ExtentReportsHelper.logPass("Logout Successful");
+
 	}
 
 }
